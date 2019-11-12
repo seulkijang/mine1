@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MINE SWEEPER</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+
+      td {
+        border: 1px solid black;
+        width: 60px;
+        height: 60px;
+        background-color: #444;
+        text-align: center;
+      }
+
+      td.opened {
+        background: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <input type="number" id="hor" placeholder="hor" value="5" />
+    <input type="number" id="ver" placeholder="ver" value="5" />
+    <input type="number" id="mine" placeholder="mine" value="5" />
+    <button id="exec">실행</button>
+    <table id="table">
+      <thead>
+        <tr>
+          <!-- <td><span id="timer">0</span>초</td> -->
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div id="result"></div>
+    <script src="mine1.js"></script>
+  </body>
+</html>

@@ -15,7 +15,7 @@ document.querySelector("#exec").addEventListener("click", function() {
   //내부 먼저 초기화
   tbody.textContent = "";
   document.querySelector("#result").textContent = "";
-  // dataset = [];
+  dataset = [];
   open = 0;
   stop_flag = false;
   const hor = parseInt(document.querySelector("#hor").value);
